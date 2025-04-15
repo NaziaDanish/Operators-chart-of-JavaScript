@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      margin: auto;
+      background-color: #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    caption {
+      font-size: 26px;
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #007BFF;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    td code {
+      background-color: #f1f1f1;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: "Courier New", monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>JavaScript Operators Chart</caption>
+    <tr>
+      <th>No.</th>
+      <th>Operator Type</th>
+      <th>Use / Example</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Grouping</td>
+      <td><code>( )</code> — Groups expressions, To control the order of operations (what runs first)., e.g., <code>(2 + 3) * 4 = 20</code></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Exponentiation</td>
+      <td><code>**</code> —To raise a number to a power. e.g., <code>2 ** 3 = 8</code></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Multiplication</td>
+      <td><code>*</code> To multiply two numbers.— e.g., <code>4 * 5 = 20</code></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Addition</td>
+      <td><code>+</code> To add numbers or combine text (strings) — e.g., <code>10 + 5 = 15 , ➤ Example (numbers): 10 + 5 = 15
+        ➤ Example (strings): 'Hi' + ' Nazia' = 'Hi Nazia'</code></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Relational</td>
+      <td><code>&lt;</code>, <code>&gt;</code> ➤ Use: To compare values (greater than or less than).— e.g., <code>5 &lt; 10 → true , ➤ Example: 5 &lt; 10 → true, 7 > 3 → true</code></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Equality</td>
+      <td><code>==</code>, <code>===</code> == checks values only (ignores type)
+
+        === checks value and type both— e.g., <code>5 == '5' → true</code>, <code>5 === '5' → false , 5 == '5' → true (value same)
+
+            5 === '5' → false (type different)</code></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Logical AND</td>
+      <td><code>&&</code> Returns true only if both sides are true— e.g., <code>true && false → false , true && true → true, true && false → false</code></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Logical OR</td>
+      <td><code>||</code> Returns true if any one side is true.— e.g.,true || false → true, false || false → false <code>false || true → true</code></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Conditional (Ternary)</td>
+      <td><code>condition ? expr1 : expr2</code> Short way to write if...else statements — e.g., <code>age &gt; 18 ? 'Adult' : 'Minor' , age > 18 ? 'Adult' : 'Minor'
+        If age is more than 18 → shows 'Adult', otherwise → 'Minor'</code></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Assignment</td>
+      <td><code>=</code>, <code>+=</code>, <code>*=</code>  To give a value to a variable or update it— e.g., <code>x = 10</code>, <code>x += 5 , x = 10 (assigns 10)
+
+        x += 5 (means x = x + 5)
+        
+        x *= 2 (means x = x * 2)</code></td>
+    </tr>
+  </table>
+
+</body>
+</html>
+
